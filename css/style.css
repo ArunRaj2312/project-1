@@ -10,7 +10,8 @@
 .feature-row1{
 	background-image:url(../images/hero-bg.jpg);
 	background-position:60% 20%;
-	background-size:100%;
+	background-size:cover;
+	background-repeat: no-repeat;
 }
 .head{
 	height:100vh;
@@ -113,6 +114,9 @@
 	height:13px;
 	border-radius:0px;
 	margin: 10px 0px 20px 0px;
+}
+.skill progress::-webkit-progress-value{
+	background-color:#0078ff;
 }
 .skill h3{
 	margin: 25px 0px;
@@ -674,6 +678,7 @@
 	}
 	.col{
 		width:50%;
+		margin:  0 auto;
 	}
 	.card-box1 .col-1{
 		width:50%;
